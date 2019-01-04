@@ -1,0 +1,27 @@
+#response {
+    display: none;
+    border: none;
+    width: 100%;
+}
+
+#response ul {
+    float: left;
+    list-style: none;
+    padding-top: 0px;
+    border: 1px solid black;
+    margin-top: 0px;
+}
+
+#response input {
+    width: 100%;
+}
+
+#response ul {
+    width: 100%;
+}
+
+#response li:hover {
+    color: silver;
+    background: #0088cc;
+
+}
