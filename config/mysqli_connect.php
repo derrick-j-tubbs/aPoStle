@@ -1,13 +1,13 @@
 <?php
-
 // This file contains the database access information. 
 // This file also establishes a connection to MySQL 
 
 // Set the database access information as constants:
 
-DEFINE('DB_USER', 'root');
-DEFINE('DB_PASSWORD', '');
-DEFINE('DB_HOST', 'localhost');
+DEFINE('DB_USER', 'homestead');
+DEFINE('DB_PASSWORD', 'secret');
+DEFINE('DB_HOST', '127.0.0.1');
+DEFINE('DB_PORT', '3306');
 DEFINE('DB_NAME', 'apostle');
 
 //Make the connection:
@@ -19,4 +19,3 @@ if ($dbConnection->connect_error) {
         $dbConnection->connect_error . " " . $dbConnection->connect_errno .
         "</body></html>");
 }
-
