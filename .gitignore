@@ -110,3 +110,10 @@ $RECYCLE.BIN/
 
 # Config files
 config/mysqli_connect.php
+.idea/jsLibraryMappings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/testing.iml
+.idea/watcherTasks.xml
+.idea/copyright/profiles_settings.xml
+.vscode/settings.json
